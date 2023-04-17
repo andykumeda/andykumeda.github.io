@@ -1,0 +1,179 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  font-family: "GothamPro", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.body-wrapper {
+  width: auto;
+  max-width: 1000px;
+  margin: auto;
+  padding: 5vh 2em;
+}
+
+@media only screen and (max-width: 767px) {
+  .body-wrapper {
+    padding: 4vh 7vw;
+  }
+}
+
+header .logo {
+  width: 115px;
+  height: 116px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-image: url(/assets/images/cryptoface-bw.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+          background-size: cover;
+}
+
+.link-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-align-content: stretch;
+      -ms-flex-line-pack: stretch;
+          align-content: stretch;
+  margin: 2em -0.5em;
+}
+
+.link {
+  width: 25%;
+  padding: 0.5em;
+}
+
+@media only screen and (max-width: 1000px) {
+  .link {
+    width: 33.3333333333%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .link {
+    width: 50%;
+  }
+}
+
+.link a {
+  display: block;
+  text-decoration: none;
+  background-color: #eee;
+  -webkit-border-radius: 0.25em;
+     -moz-border-radius: 0.25em;
+          border-radius: 0.25em;
+}
+
+.link a:hover {
+  background-color: #ddd;
+}
+
+.link .imgbox {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 3em;
+}
+
+.link .imgbox i {
+  width: 100%;
+  padding: 0 0 0;
+  font-size: 3em;
+  line-height: 1;
+  color: #000;
+}
+
+.link .imgbox .img {
+  width: 100%;
+  height: 3em;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+          background-size: cover;
+}
+
+.link .imgbox .img.tabelog {
+  -webkit-background-size: 10rem 100%;
+     -moz-background-size: 10rem 100%;
+          background-size: 10rem 100%;
+  background-image: url(tabelog_black.svg);
+}
+
+@media only screen and (max-width: 1000px) {
+  .link .imgbox i {
+    font-size: 2.5em;
+  }
+  .link .imgbox .img {
+    height: 2.5em;
+  }
+  .link .imgbox .img.tabelog {
+    -webkit-background-size: 8rem 100%;
+       -moz-background-size: 8rem 100%;
+            background-size: 8rem 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .link .imgbox i {
+    font-size: 2em;
+  }
+  .link .imgbox .img {
+    height: 2em;
+  }
+  .link .imgbox .img.tabelog {
+    -webkit-background-size: 7rem 100%;
+       -moz-background-size: 7rem 100%;
+            background-size: 7rem 100%;
+  }
+}
+
+@media only screen and (max-width: 413px) {
+  .link .imgbox i {
+    font-size: 1.5em;
+  }
+  .link .imgbox .img {
+    height: 1.5em;
+  }
+  .link .imgbox .img.tabelog {
+    -webkit-background-size: 6rem 100%;
+       -moz-background-size: 6rem 100%;
+            background-size: 6rem 100%;
+  }
+}
+
+.link .textbox {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+.link .textbox .title {
+  display: block;
+  font-size: 0.875em;
+  line-height: 1.125;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  font-size: 0.75em;
+  color: rgba(0, 0, 0, 0.5);
+}
