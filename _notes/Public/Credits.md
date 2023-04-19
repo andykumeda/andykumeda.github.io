@@ -6,11 +6,11 @@ permalink: /credits
 format: list
 ---
 
--   [Raghuveer](https://github.com/rgvr), who created [Simply Jekyll theme](https://github.com/rgvr/simply-jekyll)
+-   [Raghuveer](https://github.com/rgvr), who created [Simply Jekyll theme](https://github.com/rgvr/simply-jekyll)
 -   [Santosh Thottingal](https://github.com/santhoshtr) who introduced me to Digital Garden
 -   [Puttalu](https://github.com/aashiks) for OrgMode classes!
--   Team [Obsidian](https://obsidian.md/) for making obsidian a [markdown](https://daringfireball.net/projects/markdown/) based product
--   Dark Mode Switch by [Derek Kedziora](https://github.com/derekkedziora) - [Source link](https://github.com/derekkedziora/jekyll-demo/blob/master/scripts/mode-switcher.js)
+-   Team [Obsidian](https://obsidian.md/) for making obsidian a [markdown](https://daringfireball.net/projects/markdown/) based product
+-   Dark Mode Switch by [Derek Kedziora](https://github.com/derekkedziora) - [Source link](https://github.com/derekkedziora/jekyll-demo/blob/master/scripts/mode-switcher.js)
 -   Highlight theme from [Jekyll Pygment Themes](https://github.com/jwarby/jekyll-pygments-themes)
 
 

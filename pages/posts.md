@@ -1,5 +1,5 @@
 ---
 layout: Post
-permalink: /posts
+permalink: /posts/
 title: All Posts
 ---
