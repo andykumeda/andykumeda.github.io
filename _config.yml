@@ -125,3 +125,5 @@ exclude:
   - debug.yml
   - docker-compose.yml
   - Dockerfile
+
+google_analytics: "G-NCKMZ1DJ27"
