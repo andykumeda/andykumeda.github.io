@@ -9,9 +9,7 @@ feedformat: cards
 
 ## 2023 Event Schedule
 
-* **5/6:** [Wild Wild West 50K](https://ultrasignup.com/register.aspx?did=98967)
 * **5/20:** [Bishop Ultras 50M](http://www.bishopultras.com/)
-* **6/2-3:** [San Diego 100](https://sandiego100.com)\*\*
 * **6/3:** [John Wayne Grit Series - Newport Coast](https://johnwayne.org/pages/newportcoast)\*
 * **6/9:** [SAMO 100K](https://www.khraces.com/series/samo-100)
 * **7/29-30:** [Angeles Crest 100](http://ac100.com)
@@ -22,7 +20,6 @@ feedformat: cards
 
 ## Important Dates
 
-* **4/22:** Leona Divide 
 * **5/1-6:** Cocodona 250
 * **5/6:** Wild Wild West 
 * **5/6:** Folsom 50/100
@@ -33,7 +30,6 @@ feedformat: cards
 * **6/2-3:** San Diego 100
 * **6/9-10:** SAMO 100M/100K
 * **6/10:** Cool Moon Trail Races
-* **6/16-20:** Tahoe 200
 * **6/17-18:** Broken Arrow Skyrace
 * **6/17-18:** Tahoe 100K/25K
 * **6/24-25:** Western States 100
@@ -86,7 +82,7 @@ All results prior to this year, can be found [here](all-results.html)
 ### Stats
 
 * **Total # of Marathons:** 67
-* **Total # of 50Ks:** 52
+* **Total # of 50Ks:** 53
 * **Total # of 50Ms:** 44
 * **Total # of 100Ks:** 9
 * **Total # of 100Ms:** 71
