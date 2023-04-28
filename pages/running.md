@@ -47,6 +47,7 @@ feedformat: cards
 * **9/21-24:** Mammoth Trail Fest
 * **9/23:** GTWS (Mammoth 26K)
 * **10/7:** Cuyamaca 100K
+* **10/13-15:** Kodiak Ultra Marathons
 * **10/13-17:** Moab 240
 * **10/14:** [Range of Light Trail Races (Bishop)](https://ultrasignup.com/register.aspx?did=99272)
 * **10/21:** John Wayne Grit Series (Lone Pine)
