@@ -10,6 +10,7 @@ Creative Commons Attribution 4.0 International License
 let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
 let theme = sessionStorage.getItem('theme');
 
+
 const iconSun = "{{ site.baseurl }}/assets/img/sun.svg";
 const iconMoon = "{{ site.baseurl }}/assets/img/moon.svg";
 
