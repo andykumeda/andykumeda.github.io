@@ -9,7 +9,6 @@ feedformat: cards
 
 ## 2023 Event Schedule
 
-* **5/20:** [Bishop Ultras 50M](http://www.bishopultras.com/)
 * **6/3:** [John Wayne Grit Series - Newport Coast](https://johnwayne.org/pages/newportcoast)\*
 * **6/9:** [SAMO 100K](https://www.khraces.com/series/samo-100)
 * **7/29-30:** [Angeles Crest 100](http://ac100.com)
