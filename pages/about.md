@@ -5,7 +5,7 @@ permalink: /about/
 feedformat: cards
 ---
   
-    
+<p />    
     
 **CV \| Résumé:** 
  * [[HTML]](/resume) 
