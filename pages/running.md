@@ -19,9 +19,6 @@ feedformat: cards
 
 ## Important Dates
 
-* **5/1-6:** Cocodona 250
-* **5/6:** Wild Wild West 
-* **5/6:** Folsom 50/100
 * **5/13:** PCT50 
 * **5/14:** GTWS (Zegama)
 * **5/20:** Bishop Ultras 
