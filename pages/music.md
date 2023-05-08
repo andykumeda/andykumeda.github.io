@@ -5,15 +5,16 @@ permalink: /music/
 feedformat: cards
 ---
 ## Next Event!
+
 [![80s Party](/assets/img/80s-flyer.jpg "80s Event Flyer")](https://www.facebook.com/photo/?fbid=10230406953779197&set=a.1217112429479&notif_id=1682397028772178&notif_t=feedback_reaction_generic&ref=notif)
 
 ## About Me
 
 I started DJing in the 80s and have remained a true vinyl enthusiast ever since. I bought my turntables and records brand new back in the day, and they still serve me well today. You can catch me playing at [The Buccaneer](https://www.yelp.com/biz_photos/mSdJa4LBF-DmX84ABx1XzQ?select=Lhsn2xlrPQveHq1VRn7Ldg) from time to time, as well as at private events.
 
-If you're looking for a DJ who has stood the test of time, look no further than me. Whether you're looking for 80s hip-hop, funk, New Wave, or freestyle, I've got you covered. For a sample of my songs I typically play, take a look at my Spotify playlists below.
+If you seek a time-tested DJ, look to me. I offer a wide range of genres, including 80s hip-hop, funk, New Wave, and freestyle. Check out my Spotify playlists below for a taste of my usual tracks.
 
-If you want to book me as your vinyl turntable DJ for your next event, just [get in touch](mailto:andy@kumeda.com). I'm always happy to share my passion for music with others and create an unforgettable experience for everyone involved.
+If you want to book me as your vinyl turntable DJ for your next event, just [get in touch](mailto:andy@kumeda.com). I'm always happy to share my passion for music with others and create an unforgettable experience for everyone involved!
 
 
 ## Spotify Playlists (80s)
