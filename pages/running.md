@@ -106,6 +106,7 @@ All results prior to this year, can be found [here](all-results.html)
 
 ### Notable Achievements
 
+* **2001: [Comrades](http://comrades.com) - First Ultramarathon (Bill Rowan Medal < 9 hours)** 
 * **2014: [Last Great Race](http://run100s.com/lgrers.htm) and [Grand Slam](http://run100s.com/gs.htm)**
 * **2015: [Angeles Crest 100 - Eagle Award (10 Consecutive Finishes)](https://ac100.com/awards/)**
 * **2019: [San Diego 100 - Most Finishes (13)](https://sandiego100.com/results/)**
