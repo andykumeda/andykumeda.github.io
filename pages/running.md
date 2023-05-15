@@ -5,7 +5,7 @@ permalink: /running/
 feedformat: cards
 ---
 
-<sup><sub>Last modified: {{ site.time | date: '%A %b %d, %Y @ %H:%M' }}</sub></sup>
+<sup><sub>Last modified: {{ page.path | last_modified | date: "%Y-%m-%d %H:%M:%S" }}</sub></sup>
 
 ## 2023 Event Schedule
 
@@ -19,8 +19,6 @@ feedformat: cards
 
 ## Important Dates
 
-* **5/13:** PCT50 
-* **5/14:** GTWS (Zegama)
 * **5/20:** Bishop Ultras 
 * **5/27:** Mt Wilson Trail Race
 * **6/2-3:** San Diego 100
@@ -83,30 +81,35 @@ All results prior to this year, can be found [here](all-results.html)
 * **Total number of 50Ms:** 44
 * **Total number of 100Ks:** 9
 * **Total number of 100Ms:** 71
-<p />  
+
+---
+
 * **1st Marathon:** 1998 Los Angeles (3:56:53)
 * **1st Ultra:** 2001 Comrades Marathon (8:52:37)
 * **1st 50K:** 2001 Bulldog (5:58:52)
 * **1st 50 Miler:** 2004 Mt Hood PCT (10:24:11)
 * **1st 100 Miler:** 2004 San Diego (29:06:46)
-<p />  
-* **Most Consecutive Races (<Marathon):** Dana Point Turkey Trot 10K (22)
-* **Most Consecutive Races (>Marathon):** Angeles Crest 100 (15)
+
+---
+
+* **Most Consecutive Races \(<Marathon):** Dana Point Turkey Trot 10K (22)
+* **Most Consecutive Races \(>Marathon):** Angeles Crest 100 (15)
 * **Most Races (Any Distance):** Los Angeles Marathon (22)
 * **Most Miles:** San Francisco 1 Day (114.2 miles)
-<p />  
+
+---
+
 * **Fastest Marathon:** 2014 Revel Canyon City (3:12:29)
 * **Fastest 50K:** 2010 Orange Curtain (4:15:15)
 * **Fastest 50M:** 2012 American River (8:15:38)
 * **Fastest 100K:** 2014 Born to Run (12:12:03)
 * **Fastest 100M:** 2011 Umstead (18:33:36)
 
-<p />  
-* **DFL:** 2007 Wasatch 100 (35:57:08)
-
 ### Notable Achievements
 
 * **2001: [Comrades](http://comrades.com) - First Ultramarathon (Bill Rowan Medal < 9 hours)** 
+* **2007: [Wasatch Front 100](https://wasatch100.com/results/finishers-tables/20
+07-wasatch-100-finishers/) - DFL (35:57:08)**
 * **2014: [Last Great Race](http://run100s.com/lgrers.htm) and [Grand Slam](http://run100s.com/gs.htm)**
 * **2015: [Angeles Crest 100 - Eagle Award (10 Consecutive Finishes)](https://ac100.com/awards/)**
 * **2019: [San Diego 100 - Most Finishes (13)](https://sandiego100.com/results/)**
