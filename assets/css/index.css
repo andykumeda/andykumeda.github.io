@@ -42,6 +42,11 @@ header .logo {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 800px;
+  padding-top: 1em;
+  justify-content: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-flow: row wrap;
@@ -52,23 +57,36 @@ header .logo {
   -webkit-align-content: stretch;
       -ms-flex-line-pack: stretch;
           align-content: stretch;
-  margin: 2em -0.5em;
+  margin: 0em -0.5em;
+}
+
+.media {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 1em;
+  padding: 0 0.5em;
 }
 
 .link {
-  width: 25%;
-  padding: 0.5em;
+  flex-basis: 0 0 50%;
+  max-width: 50%;
 }
 
 @media only screen and (max-width: 1000px) {
-  .link {
-    width: 33.3333333333%;
+  .media {
+    flex-basis: calc(100% / 2); /* Adjust this value for smaller screens */
   }
 }
 
 @media only screen and (max-width: 767px) {
+  .media {
+    flex-basis: 33.33%;
+    margin: 5;
+    padding: 0 0.5em;
+  }
+
   .link {
-    width: 50%;
+    flex-basis: 50%;
   }
 }
 
