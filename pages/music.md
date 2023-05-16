@@ -4,7 +4,7 @@ title: Music
 permalink: /music/
 feedformat: cards
 ---
-## Next Event!
+## Previous Events!
 
 [![80s Party](/assets/img/80s-flyer.jpg "80s Event Flyer")](https://www.facebook.com/photo/?fbid=10230406953779197&set=a.1217112429479&notif_id=1682397028772178&notif_t=feedback_reaction_generic&ref=notif)
 
