@@ -5,8 +5,8 @@ permalink: /about/
 feedformat: cards
 ---
   
-<p />    
-    
+<sup><sub>Last modified: {{ page.path | last_modified | date: "%Y-%m-%d %H:%M:%S" }}</sub></sup> 
+
 **CV \| Résumé:** 
  * [[HTML]](/resume) 
  * [[PDF]](/resume.pdf) 
