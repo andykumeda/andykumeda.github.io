@@ -10,16 +10,15 @@ feedformat: cards
 ## 2023 Event Schedule
 
 * **6/3:** [John Wayne Grit Series - Newport Coast](https://johnwayne.org/pages/newportcoast)\*
-* **6/9:** [SAMO 100K](https://www.khraces.com/series/samo-100)
+* **6/9:** [Cool Moon 100K](https://coolmoon100.com/50-25-13-5-11-5-mile-and-5k-races/)**
 * **7/29-30:** [Angeles Crest 100](http://ac100.com)
-* **9/21-24:** [Mammoth Trail Fest](https://www.mammothtrailfest.com/)
+* **9/21-24:** [Mammoth Trail Fest](https://www.mammothtrailfest.com/)**
 * **10/21:** [John Wayne Grit Series - Lone Pine](https://johnwayne.org/pages/lonepine)\*
 
-<sup><sub>*\*Official Photographer*</sub></sup>  <sup><sub>*\*\*Volunteer*</sub></sup>
+<sup><sub>*\*Official Photographer*</sub></sup>  <sup><sub>*\*\*Tentative*</sub></sup>
 
 ## Important Dates
 
-* **5/20:** Bishop Ultras 
 * **5/27:** Mt Wilson Trail Race
 * **6/2-3:** San Diego 100
 * **6/9-10:** SAMO 100M/100K
