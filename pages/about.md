@@ -9,8 +9,8 @@ feedformat: cards
 
 **CV \| Résumé:** 
  * [[HTML]](/resume) 
- * [[PDF]](/resume.pdf) 
- * [[JSON]](/resume.json) 
- * [[LaTeX]](/resume.tex)
+ * [[PDF]](/resume/resume.pdf) 
+ * [[JSON]](/resume/resume.json) 
+ * [[LaTeX]](/resume/resume.tex)
 
 
