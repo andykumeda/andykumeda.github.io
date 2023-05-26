@@ -7,77 +7,84 @@ https://github.com/derekkedziora/jekyll-demo
 Creative Commons Attribution 4.0 International License
 */
 
-let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+let systemInitiatedDark = window.matchMedia('(prefers-color-scheme: dark)');
 let theme = sessionStorage.getItem('theme');
 
-
-const iconSun = "{{ site.baseurl }}/assets/img/sun.svg";
-const iconMoon = "{{ site.baseurl }}/assets/img/moon.svg";
-
-function changeIconImgSrc(src) {
-	document.getElementById("theme-toggle-img").src = src;
-	document.getElementById("theme-toggle-img--mobile").src = src;
-}
+const iconSun = '{{ site.baseurl }}/assets/img/sun.svg';
+const iconMoon = '{{ site.baseurl }}/assets/img/moon.svg';
 
 function changeIconImgSrc(src) {
-  const iconElement = document.getElementById("theme-toggle-img");
+  const iconElement = document.getElementById('theme-toggle-img');
+  const iconMobileElement = document.getElementById('theme-toggle-img--mobile');
+  
   if (iconElement !== null) {
     iconElement.src = src;
   }
-  const iconMobileElement = document.getElementById("theme-toggle-img--mobile");
+  
   if (iconMobileElement !== null) {
     iconMobileElement.src = src;
   }
 }
 
-
-if (systemInitiatedDark.matches) {
-	changeIconImgSrc(iconMoon);
-} else {
-	changeIconImgSrc(iconSun);
+function setTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  sessionStorage.setItem('theme', theme);
+  
+  if (theme === 'dark') {
+    changeIconImgSrc(iconMoon);
+  } else {
+    changeIconImgSrc(iconSun);
+  }
 }
 
 function prefersColorTest(systemInitiatedDark) {
   if (systemInitiatedDark.matches) {
-  	document.documentElement.setAttribute('data-theme', 'dark');		
-   	changeIconImgSrc(iconMoon);
-   	sessionStorage.setItem('theme', '');
+    if (theme === 'light' || theme === null) {
+      setTheme('dark');
+    }
   } else {
-  	document.documentElement.setAttribute('data-theme', 'light');
-    changeIconImgSrc(iconSun);
-    sessionStorage.setItem('theme', '');
+    if (theme === 'dark' || theme === null) {
+      setTheme('light');
+    }
   }
 }
+
+if (theme === 'dark' || theme === null) {
+  setTheme('dark');
+} else if (theme === 'light') {
+  setTheme('light');
+}
+
 systemInitiatedDark.addListener(prefersColorTest);
 
-
 function modeSwitcher() {
-	let theme = sessionStorage.getItem('theme');
-	if (theme === "dark") {
-		document.documentElement.setAttribute('data-theme', 'light');
-		sessionStorage.setItem('theme', 'light');
-		changeIconImgSrc(iconSun);
-	}	else if (theme === "light") {
-		document.documentElement.setAttribute('data-theme', 'dark');
-		sessionStorage.setItem('theme', 'dark');
-		changeIconImgSrc(iconMoon);
-	} else if (systemInitiatedDark.matches) {	
-		document.documentElement.setAttribute('data-theme', 'light');
-		sessionStorage.setItem('theme', 'light');
-		changeIconImgSrc(iconSun);
-	} else {
-		document.documentElement.setAttribute('data-theme', 'dark');
-		sessionStorage.setItem('theme', 'dark');
-		changeIconImgSrc(iconMoon);
-	}
+  let currentTheme = document.documentElement.getAttribute('data-theme');
+  if (currentTheme === 'dark') {
+    setTheme('light');
+  } else {
+    setTheme('dark');
+  }
 }
 
-if (theme === "dark") {
-	document.documentElement.setAttribute('data-theme', 'dark');
-	sessionStorage.setItem('theme', 'dark');
-	changeIconImgSrc(iconMoon);
-} else if (theme === "light") {
-	document.documentElement.setAttribute('data-theme', 'light');
-	sessionStorage.setItem('theme', 'light');
-	changeIconImgSrc(iconSun);
-}
+window.addEventListener('beforeunload', () => {
+  sessionStorage.setItem('theme', document.documentElement.getAttribute('data-theme'));
+});
+
+window.addEventListener('load', () => {
+  let currentTheme = sessionStorage.getItem('theme');
+  if (currentTheme === 'dark') {
+    setTheme('dark');
+  } else {
+    setTheme('light');
+  }
+});
+
+window.addEventListener('pageshow', (event) => {
+  let currentTheme = sessionStorage.getItem('theme');
+  if (currentTheme === 'dark') {
+    setTheme('dark');
+  } else {
+    setTheme('light');
+  }
+});
+

@@ -1,23 +1,30 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-// Get all "navbar-burger" elements
-const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-// Check if there are any navbar burgers
-if ($navbarBurgers.length > 0) {
+  if (navbarBurgers.length > 0) {
+    navbarBurgers.forEach((el) => {
+      el.addEventListener('click', () => {
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
 
-// Add a click event on each of them
-$navbarBurgers.forEach( el => {
-    el.addEventListener('click', () => {
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
 
-    // Get the target from the "data-target" attribute
-    const target = el.dataset.target;
-    const $target = document.getElementById(target);
-
-    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-    el.classList.toggle('is-active');
-    $target.classList.toggle('is-active');
-
+        // Hide the dark mode icon when expanding the menu
+        const iconMobile = document.getElementById('theme-toggle-img--mobile');
+        const iconDesktop = document.getElementById('theme-toggle-img');
+        
+        if (iconMobile && iconDesktop) {
+          if ($target.classList.contains('is-active')) {
+            if (window.innerWidth <= 1023) {
+              iconMobile.style.display = 'none';
+            }
+          } else {
+            iconMobile.style.display = 'inline-block';
+          }
+        }
+      });
     });
+  }
 });
-}
-});
+
