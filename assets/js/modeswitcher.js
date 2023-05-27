@@ -13,28 +13,30 @@ let theme = sessionStorage.getItem('theme');
 const iconSun = '{{ site.baseurl }}/assets/img/sun.svg';
 const iconMoon = '{{ site.baseurl }}/assets/img/moon.svg';
 
-function changeIconImgSrc(src) {
+function changeIconImgSrc(theme) {
   const iconElement = document.getElementById('theme-toggle-img');
   const iconMobileElement = document.getElementById('theme-toggle-img--mobile');
-  
-  if (iconElement !== null) {
-    iconElement.src = src;
+  let iconSrc = '';
+
+  if (theme === 'dark') {
+    iconSrc = iconSun;
+  } else {
+    iconSrc = iconMoon;
   }
-  
+
+  if (iconElement !== null) {
+    iconElement.src = iconSrc;
+  }
+
   if (iconMobileElement !== null) {
-    iconMobileElement.src = src;
+    iconMobileElement.src = iconSrc;
   }
 }
 
 function setTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
   sessionStorage.setItem('theme', theme);
-  
-  if (theme === 'dark') {
-    changeIconImgSrc(iconMoon);
-  } else {
-    changeIconImgSrc(iconSun);
-  }
+  changeIconImgSrc(theme);
 }
 
 function prefersColorTest(systemInitiatedDark) {
