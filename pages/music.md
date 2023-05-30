@@ -4,9 +4,6 @@ title: Music
 permalink: /music/
 feedformat: cards
 ---
-## Previous Events!
-
-[![80s Party](/assets/img/80s-flyer.jpg "80s Event Flyer")](https://www.facebook.com/photo/?fbid=10230406953779197&set=a.1217112429479&notif_id=1682397028772178&notif_t=feedback_reaction_generic&ref=notif)
 
 ## About Me
 
@@ -16,6 +13,9 @@ If you seek a time-tested DJ, look to me. I offer a wide range of genres, includ
 
 If you want to book me as your vinyl turntable DJ for your next event, just [get in touch](mailto:andy@kumeda.com). I'm always happy to share my passion for music with others and create an unforgettable experience for everyone involved!
 
+## Previous Events!
+
+[![80s Party](/assets/img/80s-flyer.jpg "80s Event Flyer")](https://www.facebook.com/photo/?fbid=10230406953779197&set=a.1217112429479&notif_id=1682397028772178&notif_t=feedback_reaction_generic&ref=notif)
 
 ## Spotify Playlists (80s)
 
