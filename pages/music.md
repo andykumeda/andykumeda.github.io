@@ -9,7 +9,7 @@ feedformat: cards
 
 I started DJing in the 80s and have remained a true vinyl enthusiast ever since. I bought my turntables and records brand new back in the day, and they still serve me well today. You can catch me playing at [The Buccaneer](https://www.yelp.com/biz_photos/mSdJa4LBF-DmX84ABx1XzQ?select=Lhsn2xlrPQveHq1VRn7Ldg) from time to time, as well as at private events.
 
-If you seek a time-tested DJ, look to me. I offer a wide range of genres, including 80s hip-hop, funk, New Wave, and freestyle. Check out my Spotify playlists below for a taste of my usual tracks.
+If you seek a time-tested DJ, look to me. I offer a wide range of genres, including 80s hip-hop, funk, New Wave, and freestyle. Check out my Spotify playlists below for a taste of my usual tracks. I also have some non-80s mixes on [Soundcloud](https://soundcloud.com/0xandyk), so check those out as well!
 
 If you want to book me as your vinyl turntable DJ for your next event, just [get in touch](mailto:andy@kumeda.com). I'm always happy to share my passion for music with others and create an unforgettable experience for everyone involved!
 
