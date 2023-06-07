@@ -28,12 +28,9 @@
 *
 {%- endcomment -%}
 
-{%- if site.copyright.msg != nil and site.copyright.msg != empty and site.copyright.msg != null -%}
 <div id="copyright">
-    <p id="copyright-notice"> {{site.copyright.year}} • {{site.copyright.msg}} •
-        Credits</a> </p>
+    <p id="copyright-notice"> {{site.copyright.year}} • {{site.copyright.msg}} </p>
 </div> 
-{%- endif -%}
 
 <script src="/assets/js/vanilla-back-to-top.min.js"></script>
 <script>addBackToTop({
