@@ -1,16 +1,18 @@
-FROM ruby:3.1.1-alpine3.15
+FROM ruby:3.1.1-alpine3.15 as builder
 
 RUN apk add --no-cache build-base nodejs-current
 
-RUN gem install bundler
+WORKDIR /srv/jekyll
 
-WORKDIR /usr/src/app
-
-COPY . /usr/src/app
+COPY . .
 
 RUN bundle install
+RUN jekyll build
 
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
+FROM nginx:alpine
+
+COPY --from=builder /srv/jekyll/_site /usr/share/nginx/html
+COPY default.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 4000
 
