@@ -1,0 +1,1118 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Andy Kumeda</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+	<style>
+		/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    background: #393e46;
+    /* background: #f8f8f8; */
+    /* margin: 50px 0 100px; */
+    margin: 0;
+    letter-spacing: .3px;
+    color: #39424B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1px; }
+
+h2 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: .5px; }
+
+h3 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: .4px;
+    padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+h3.bold {
+    font-weight: 700; }
+
+h4 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+h4.bold {
+    font-weight: 700; }
+
+h5 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 11px; }
+h5.italic {
+    font-style: italic; }
+
+h6 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px; }
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover, a:hover > i.fa-external-link, .info-tag-container a:hover .fa.fa-external-link {
+    color: #2895F1;
+}
+
+a .fa-external-link {
+    font-size: 8px;
+    margin-left: 2px;
+    vertical-align: text-top;
+    color: #999;
+}
+
+p, li {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: .4px;
+}
+
+blockquote {
+    font-size: 11px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 10px 25px; }
+
+em {
+    color: #999;
+}
+
+ul {
+    margin: 10px 0 0;
+    -webkit-padding-start: 25px;
+}
+
+ul li {
+    padding-left: 10px;
+}
+
+ul.minimal {
+    list-style: none;
+    padding: 0;
+}
+
+ul.minimal li {
+    margin-bottom: 3px;
+    padding-left: 0;
+}
+
+ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 28px;
+    column-gap: 28px;
+}
+
+ul.two-column li {
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+
+@page {
+    size: A4;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.keyline {
+    width: 45px;
+    /* margin: 8px 0 10px; */
+    margin: 4px 0 10px;
+    border-top: 1px solid #5C78FF;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*
+.profile-header {
+    width: auto;
+    max-width:  300px;
+    margin-right: 50px;
+}
+*/
+
+/*
+.profile-pic {
+    width: auto;
+    max-width: 800px;
+    margin-right: auto;
+    /* margin-top: -5px; */
+    /* margin-right: 18px; *//*
+}
+*/
+
+.profile-pic img {
+    width: 90px;
+    height: auto;
+    border-radius: 100%;
+    padding: 2px;
+    object-fit: cover;
+    float: right;
+}
+
+.summary {
+    margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+    background: #222831;
+    color: #eeeeee;
+    /* width: 612px; */
+    min-height: 792px;
+    display: block;
+    margin: 0 auto;
+    border-top: 10px solid #5C78FF;
+    /* padding: 36px 22px 30px 34px; */
+    padding: 50px; /* 50px calc(50px + 10%);*/
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-column, .profile-header {
+    float: left;
+    /* width: 160px; */
+    width: 300px;
+    /* margin-right: 20px; */
+    margin-right: 50px;
+}
+
+.right-column, .profile-pic {
+    width: auto;
+    overflow: hidden;
+    max-width: 850px;
+    /* margin-right: 50px; */
+    margin: 0 auto;
+}
+
+.item {
+    /* margin-bottom: 15px; */
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #393e46;
+}
+
+.item:first-child, .title + .item {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+}
+
+.title {
+    background-color: #393e46;
+}
+
+.title > i {
+    float: left;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.right-column > .container > .title {
+    margin-bottom: 15px;
+}
+
+.gpa {
+    border: 1px solid #FFFFFF;
+    border-radius: 35%;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+@media only screen and (min-width: 2560px) {
+    .page {
+        padding: 2rem 60rem 2rem 60rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .page {
+        padding: 35px;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+        margin: 0;
+    }
+
+    .skills-container > section > ul > li
+    /*,.languages-container > ul > li */{
+        display: inline;
+    }
+
+    .skills-container > section > ul > li > h6
+    /*,.languages-container > ul > li > h6 */{
+        padding-right: 10px;
+        display: inline;
+    }
+
+    .info-tag-container .info-text {
+        font-size: 14px !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+    }
+
+    h4 {
+        font-size: 14px !important;
+    }
+
+    h6 {
+        font-size: 12px !important;
+    }
+
+    p, li {
+        font-size: 14px;
+    }
+
+    .item {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}
+
+@media print {
+    body {
+        margin: 0;
+        background: #FFFFFF;
+        color: #000;
+    }
+
+    main {
+        background: #FFFFFF !important;
+        color: black !important;
+    }
+
+    @page {
+        border-top: 2px solid #FFFFFF;
+    }
+
+    .page {
+        color: #000;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 35px 0 35px; /* 35px  35px; */
+        box-shadow: none;
+    }
+
+    .title {
+        background-color: #393e46;
+        color: #FFFFFF;
+        page-break-inside: avoid;
+    }
+
+    .keyline {
+        width: 45px;
+        /* margin: 8px 0 10px; */
+        margin: 4px 0 10px;
+        border-top: 2px solid #5C78FF;
+    }
+
+    .page .resume-header,
+    .page .resume-content {
+        padding: 0 35px 0 35px;
+    }
+
+    /* .container > section {
+        page-break-inside: avoid;
+    } */
+
+    .left-column {
+        width: 250px;
+        margin-right: 35px;
+    }
+
+    /* .left-column .container {
+        page-break-inside: avoid;
+    } */
+
+    .fa-external-link {
+        display: none;
+    }
+
+    .gpa {
+        border: 1px solid #393e46;
+        margin-left: 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .projects-container .item:nth-child(n+5) {
+        display: none;
+    }
+
+    .speaking-container .item:nth-child(n+12) {
+        display: none;
+    }
+
+    .work-container .item:nth-child(n+13) {
+        display: none;
+    }
+
+    .right-column .container:nth-child(n+3) {
+        display: none;
+    }
+
+    .left-column .skills-container:nth-child(n+1) {
+        display: none;
+    }
+}
+
+/* Components */
+.info-tag-container {
+    margin-bottom: 5px;
+}
+
+.info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.info-tag-container .fa.fa-map-marker {
+    font-size: 16px;
+}
+
+.info-tag-container .fa.fa-mobile {
+    font-size: 18px;
+}
+
+.info-tag-container .fa.fa-envelope-o {
+    font-size: 12px;
+}
+
+.info-tag-container .fa.fa-desktop {
+    font-size: 11px;
+}
+
+.info-tag-container .fa.fa-external-link {
+    width: auto;
+    font-size: 8px;
+    margin-left: 2px;
+    vertical-align: text-top;
+    color: #999;
+}
+
+.info-tag-container .info-text {
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    /* width: 139px; */
+}
+
+.references-container .fa {
+    font-size: 14px;
+}
+
+.download-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+  background-color: red;
+  padding: 5px;
+}
+
+.download-bar a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+	</style>
+	</head>
+	<body>
+		<main id="resume" class="page">
+			<header class="resume-header clearfix">
+			    <div class="profile-header">
+			        <h1 class="display-block">Andy Kumeda</h1>
+			        <h2 class="display-block">Network Architect</h2>
+			    </div>
+			    <div class="profile-pic">
+			        <img src="https://andykumeda.com/assets/img/CCIE.jpg" alt="profile-pic">
+			    </div>
+			</header>
+			<div class="resume-content">
+				<aside class="left-column">
+					<div class="container about-container">
+					    <div class="title">
+					        <h3>About</h3>
+					        <div class="keyline"></div>
+					    
+					    </div>
+					
+					        <div class="info-tag-container">
+					                <i class="fa fa-map-marker"></i>
+					        
+					                <h6 class="info-text">
+					                        Los Angeles, California
+					                </h6>
+					        </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-envelope"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="mailto:andy@kumeda.com" target="_blank">
+					                        andy@kumeda.com <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-mobile-alt"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="tel:(310) 493-1793" target="_blank">
+					                        (310) 493-1793 <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-desktop"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="https://cv.kumeda.com" target="_blank">
+					                        cv.kumeda.com <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					
+					                        <div class="info-tag-container">
+					                                    <i class="fa fa-linkedin-square"></i>
+					                        
+					                                <h6 class="info-text">
+					                                    <a href="https://www.linkedin.com/in/andykumeda/" target="_blank">
+					                                        LinkedIn <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                    </a>
+					                                </h6>
+					                        </div>
+					                         <div class="info-tag-container">
+					                                     <i class="fab fa-github"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://github.com/andykumeda" target="_blank">
+					                                         GitHub <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>
+					</div>
+					    <div class="skills-container">
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Cloud</h3>
+					                        <div class="keyline"></div>
+					                    
+					                    </div>
+					                    <ul class="minimal">
+					                            <li><h6>AWS</h6></li>
+					                            <li><h6>Azure</h6></li>
+					                            <li><h6>Digital Ocean</h6></li>
+					                            <li><h6>CloudFlare</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Network Management</h3>
+					                        <div class="keyline"></div>
+					                    
+					                    </div>
+					                    <ul class="minimal">
+					                            <li><h6>Solarwinds Orion</h6></li>
+					                            <li><h6>ManageEngine OpManager</h6></li>
+					                            <li><h6>Zabbix</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>DevOps</h3>
+					                        <div class="keyline"></div>
+					                    
+					                    </div>
+					                    <ul class="minimal">
+					                            <li><h6>Ansible | Terraform</h6></li>
+					                            <li><h6>Github | git</h6></li>
+					                            <li><h6>Docker | Vagrant | Multipass</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Collaboration | Project Management</h3>
+					                        <div class="keyline"></div>
+					                    
+					                    </div>
+					                    <ul class="minimal">
+					                            <li><h6>Asana</h6></li>
+					                            <li><h6>Notion</h6></li>
+					                            <li><h6>Trello</h6></li>
+					                            <li><h6>Smartsheet</h6></li>
+					                            <li><h6>Jira | Confluence</h6></li>
+					                            <li><h6>Kanban | Scrum</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Security</h3>
+					                        <div class="keyline"></div>
+					                    
+					                    </div>
+					                    <ul class="minimal">
+					                            <li><h6>Fortigate</h6></li>
+					                            <li><h6>Cisco ASA</h6></li>
+					                            <li><h6>Rapid7</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>OS | Languages</h3>
+					                        <div class="keyline"></div>
+					                    
+					                    </div>
+					                    <ul class="minimal">
+					                            <li><h6>Python</h6></li>
+					                            <li><h6>Javascript</h6></li>
+					                            <li><h6>Linux | MacOS</h6></li>
+					                            <li><h6>PHP</h6></li>
+					                    </ul>
+					            </section>
+					    </div>
+					    <div class="container interests-container">
+					        <div class="title">
+					            <h3>Interests</h3>
+					            <div class="keyline"></div>
+					        
+					        </div>
+					
+					            <section class="item">
+					                    <h4 class="bold">Art &amp; Music</h4>
+					                    <ul class="minimal">
+					                            <li>DJing</li>
+					                            <li>Vinyl Records</li>
+					                            <li>Generative Art</li>
+					                            <li>Photography</li>
+					                    </ul>
+					            </section>
+					            <section class="item">
+					                    <h4 class="bold">Activities</h4>
+					                    <ul class="minimal">
+					                            <li>Long Distance Running</li>
+					                            <li>Traveling</li>
+					                            <li>Camping | Hiking</li>
+					                    </ul>
+					            </section>
+					            <section class="item">
+					                    <h4 class="bold">Beverages</h4>
+					                    <ul class="minimal">
+					                            <li>Coffee Roasting</li>
+					                            <li>Craft Beer</li>
+					                            <li>Wine Tasting</li>
+					                    </ul>
+					            </section>
+					            <section class="item">
+					                    <h4 class="bold">Technology</h4>
+					                    <ul class="minimal">
+					                            <li>Web3</li>
+					                            <li>AI | LLM</li>
+					                            <li>Blockchain | Smart Contracts</li>
+					                    </ul>
+					            </section>
+					    </div>
+					<div class="container education-container">
+					    <div class="title">
+					            <i class="fa fas fa-user-graduate"></i>
+					        <h3>Education</h3>
+					        <div class="keyline"></div>
+					    
+					    </div>
+					
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h4 class="bold pull-left">
+					                        California State University, Long Beach
+					                </h4>
+					            </div>
+					
+					            <h4 class="display-inline">BS - Computer Science and Engineering</h4>
+					
+					
+					        </section>
+					</div>
+				</aside>
+				<div class="right-column">
+					        <div class="container summary-container">
+					            <div class="title">
+					                    <i class="fa fas fa-file-alt"></i>
+					                <h3>Summary</h3>
+					                <div class="keyline"></div>
+					            
+					            </div>
+					            <p class="summary">
+					                As an engineering and project management professional with over 25 years of hands-on technology experience, I am adept at operating across various hardware and software platforms. I excel in identifying and mitigating complex technology and business challenges, providing timely solutions while working within tight timelines and budgetary constraints. With a proven track record of success, I have designed and implemented large-scale enterprise server and networking infrastructures, providing both scalability and redundancy across multiple data center locations.
+					            </p>
+					        </div>
+					<div class="container work-container">
+					    <div class="title">
+					            <i class="fa fas fa-user-tie"></i>
+					        <h3>Work Experience</h3>
+					        <div class="keyline"></div>
+					    
+					    </div>
+					
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Delta9 Technology, LLC
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">2017</span>
+					                            <span class="endDate"> - present</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Principal Consultant</h4>
+					
+					                <div class="info-tag-container">
+					                    <i class="fa fa-map-marker"></i>
+					
+					
+					                        <h6 class="info-text">
+					                                
+					                                Los Angeles, CA
+					                        </h6>
+					                </div>
+					
+					
+					            <ul>
+					                <li>Designed and implemented SolarWinds network performance monitoring and management solutions for a large-scale medical service provider, resulting in enhanced network visibility and proactive issue resolution.</li>
+					                <li>Played a pivotal role in identifying, protecting, and managing corporate assets by monitoring and responding to security incidents in line with organizational policies and procedures.</li>
+					                <li>Designed and established critical business requirements for high-tech startups, meeting aggressive budget and timeline goals.</li>
+					                <li>Instituted a real-time application and infrastructure monitoring and alerting framework for a large multimedia and entertainment corporation, boosting operational efficiency and minimizing downtime.</li>
+					                <li>Delivered high-availability storage area networks and VM platform design development and procurement reports for multiple universities and outreach centers spanning across multiple campuses.</li>
+					                <li>Devised comprehensive system and network specifications, integration, project management, and test plans for mergers and acquisitions, streamlining the entire process and ensuring seamless transitions.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        DexYP
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">2015</span>
+					                            <span class="endDate"> - 2017</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Architect</h4>
+					
+					                <div class="info-tag-container">
+					                    <i class="fa fa-map-marker"></i>
+					
+					
+					                        <h6 class="info-text">
+					                                
+					                                Dallas, TX
+					                        </h6>
+					                </div>
+					
+					
+					            <ul>
+					                <li>Collaborated effectively with all stakeholders to implement comprehensive threat detection and prevention strategies, incident response plans, forensic analysis, and data loss prevention measures.</li>
+					                <li>Designed and produced innovative enterprise solutions involving WAN/LAN, WLAN, Data Analytics, Security, and Virtual (e.g., NFV, SDN) technologies, developing automation rules and management policies to streamline processes and boost efficiency.</li>
+					                <li>Worked closely with the executive team to conduct risk assessments and develop business continuity plans to ensure compliance with SOX and PCI requirements.</li>
+					                <li>Collaborated with internal customers and corporate leadership to analyze, research, and implement enterprise-wide network and security architecture solutions that aligned with business objectives and goals.</li>
+					                <li>Designed and developed a custom open-source DCIM application that integrated internal infrastructure and application databases, enabling accurate inventory and physical location tracking across multiple data centers.</li>
+					                <li>Provided expert guidance to ensure emerging technologies and innovative ideas were aligned with the enterprise&#x27;s operational and strategic goals, helping to drive overall success and growth.</li>
+					                <li>As a technology liaison leader, facilitated collaboration and integration of impactful and advanced technical solutions to drive enterprise-wide transformation and success.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        YP
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">2012</span>
+					                            <span class="endDate"> - 2015</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Executive Director, Network &amp; Telecom</h4>
+					
+					                <div class="info-tag-container">
+					                    <i class="fa fa-map-marker"></i>
+					
+					
+					                        <h6 class="info-text">
+					                                
+					                                Glendale, CA
+					                        </h6>
+					                </div>
+					
+					
+					            <ul>
+					                <li>Reviewed the performance of network and telephony resources to determine operating costs, productivity levels, and necessary upgrades, ensuring optimal use of resources while minimizing expenses.</li>
+					                <li>Planned and executed business requirements, managed projects, and allocated resources effectively for network and telephony infrastructures, driving successful outcomes and meeting project goals and objectives.</li>
+					                <li>Defined and communicated project milestones, service level agreements, and resource allocation to all relevant stakeholders, including the executive team, department leads, support staff, and end-users, ensuring everyone was aligned with project objectives and timelines.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        AT&amp;T Interactive
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">2009</span>
+					                            <span class="endDate"> - 2012</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Associate Director, Voice &amp; Data</h4>
+					
+					                <div class="info-tag-container">
+					                    <i class="fa fa-map-marker"></i>
+					
+					
+					                        <h6 class="info-text">
+					                                
+					                                Dallas, TX
+					                        </h6>
+					                </div>
+					
+					
+					            <ul>
+					                <li>Presented compelling business case justifications and conducted thorough cost/benefit analyses for various operations spending and initiatives, ensuring informed decision-making by the executive team.</li>
+					                <li>Conducted benchmarking and analysis of the telephony and networking infrastructures to determine operating costs, productivity levels, and upgrade requirements, enabling informed resource allocation and strategic planning.</li>
+					                <li>Designed and implemented large-scale multi-vendor data and voice networks across multiple data centers, ensuring robust and scalable infrastructures that met business requirements and goals.</li>
+					                <li>Built and/or expanded six Tier 4 high-density data centers within the allocated budget and timeline, demonstrating strong project management skills and a deep understanding of data center technologies and requirements.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Yellowpages.com | AT&amp;T
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">2007</span>
+					                            <span class="endDate"> - 2009</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Manager, Network Operations</h4>
+					
+					                <div class="info-tag-container">
+					                    <i class="fa fa-map-marker"></i>
+					
+					
+					                        <h6 class="info-text">
+					                                
+					                                Dallas, TX
+					                        </h6>
+					                </div>
+					
+					
+					            <ul>
+					                <li>Provided oversight for all network operations, remote communications, wide and local area networks within multiple data centers, ensuring reliable and secure network connectivity across the enterprise.</li>
+					                <li>Maintained and managed operational metrics, goals, and project timelines, providing visibility and transparency into network performance and project progress to relevant stakeholders.</li>
+					                <li>Ensured high availability and full redundancy for all network infrastructures to achieve 99.9% uptime, minimizing downtime and maintaining business continuity.</li>
+					                <li>Managed and delivered large-scale projects utilizing technical analysis, data network planning, engineering, and global infrastructure design experience, achieving project success and delivering value to the organization.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Curesearch | National Childhood Cancer Foundation
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">2004</span>
+					                            <span class="endDate"> - 2007</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Director, Information Technology</h4>
+					
+					                <div class="info-tag-container">
+					                    <i class="fa fa-map-marker"></i>
+					
+					
+					                        <h6 class="info-text">
+					                                
+					                                Baltimore, MD
+					                        </h6>
+					                </div>
+					
+					
+					            <ul>
+					                <li>Provided strategic oversight for infrastructure and data operations, ensuring alignment with the business and scientific objectives of the organization.</li>
+					                <li>Formulated and deployed long-term strategic plans for acquiring and enabling efficient and cost-effective information processing and communication technologies, ensuring that technology investments were aligned with organizational goals and priorities.</li>
+					                <li>Directed research on potential technology solutions and implementations in support of new initiatives, opportunities, and procurement efforts, providing informed recommendations to the executive team and relevant stakeholders.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Yahoo! | Overture Services | Goto.com
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">2001</span>
+					                            <span class="endDate"> - 2004</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Senior Network Engineer</h4>
+					
+					                <div class="info-tag-container">
+					                    <i class="fa fa-map-marker"></i>
+					
+					
+					                        <h6 class="info-text">
+					                                
+					                                Pasadena, CA
+					                        </h6>
+					                </div>
+					
+					
+					            <ul>
+					                <li>Designed, integrated, and implemented networks and data centers across twelve countries, incorporating sales and customer service resources and production web-searching facilities, to enable efficient and scalable operations in multiple regions.</li>
+					                <li>Led the technology mergers and acquisitions migration and integration of FAST and AltaVista, ensuring seamless transitions and minimal disruption to operations.</li>
+					                <li>Collaborated with senior engineering team leads and executive management to develop technology and business roadmaps, providing efficient, scalable, cost-effective, and fault-tolerant network and systems infrastructures.</li>
+					                <li>Worked with project managers and internal customers to define proper deliverables, communicate expectations, and manage risks, ensuring timely delivery of milestones and objectives.</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container awards-container">
+					    <div class="title">
+					            <i class="fa fas fa-award"></i>
+					        <h3>Awards &amp; Credentials</h3>
+					        <div class="keyline"></div>
+					    
+					    </div>
+					
+					        <section class="item">
+					            <div class="section-header">
+					                <h5 class="italic pull-right">
+					                            1996
+					                </h5>
+					            </div>
+					              <div class="download-bar">
+					                <a href="resume.pdf">Download PDF</a>
+					              </div>
+					            
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Cisco Certified Internetwork Expert (CCIE #3406)
+					                </h3>
+					                <h5 class="italic pull-right">
+					                </h5>
+					            </div>
+					
+					            <h5 class="summary">CCIE Routing &amp; Switching, Written &amp; Lab</h5>
+					        </section>
+					        <section class="item">
+					            <div class="section-header">
+					                <h5 class="italic pull-right">
+					                </h5>
+					            </div>
+					              <div class="download-bar">
+					                <a href="resume.pdf">Download PDF</a>
+					              </div>
+					            
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Cisco Certified Internetwork Expert (CCIE) Re-certification
+					                </h3>
+					                <h5 class="italic pull-right">
+					                </h5>
+					            </div>
+					
+					            <h5 class="summary">Security (2001), IP (2003), Routing &amp; Switching (2004,2007), VoIP (2009), Service Provider (2011), Data Center (2015)</h5>
+					        </section>
+					        <section class="item">
+					            <div class="section-header">
+					                <h5 class="italic pull-right">
+					                            2010
+					                </h5>
+					            </div>
+					              <div class="download-bar">
+					                <a href="resume.pdf">Download PDF</a>
+					              </div>
+					            
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        AT&amp;T Service Excellence Award
+					                </h3>
+					                <h5 class="italic pull-right">
+					                </h5>
+					            </div>
+					
+					            <h5 class="summary">IPV6 Implementation</h5>
+					        </section>
+					        <section class="item">
+					            <div class="section-header">
+					                <h5 class="italic pull-right">
+					                            2018
+					                </h5>
+					            </div>
+					              <div class="download-bar">
+					                <a href="resume.pdf">Download PDF</a>
+					              </div>
+					            
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        METRC Validated Software Provider
+					                </h3>
+					                <h5 class="italic pull-right">
+					                </h5>
+					            </div>
+					
+					            <h5 class="summary">CA Department of Food &amp; Agriculture | CA Department of Public Health</h5>
+					        </section>
+					        <section class="item">
+					            <div class="section-header">
+					                <h5 class="italic pull-right">
+					                            2020
+					                </h5>
+					            </div>
+					              <div class="download-bar">
+					                <a href="resume.pdf">Download PDF</a>
+					              </div>
+					            
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Certified Enterprise Blockchain Professional (CEBP)
+					                </h3>
+					                <h5 class="italic pull-right">
+					                </h5>
+					            </div>
+					
+					            <h5 class="summary">101 Blockchains</h5>
+					        </section>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
