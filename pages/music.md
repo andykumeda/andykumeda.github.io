@@ -20,12 +20,12 @@ If you want to book me as your vinyl turntable DJ for your next event, just [get
 ## Spotify Playlists (80s)
 
 ### Rock
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2J72EenqhcH70oNg6rUqX0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7CYAx3PHklTpx7sB2mRY4F?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 ### New Wave
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6jN8urNIJKVzWfMzPozcmb?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/28tcjM62dph0iUJ80j13QV?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 ### Freestyle/Dance
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1J0gUo6YwdD5f08HoALyDa?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> 
-### Hip Hop/Rap/Funk
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ZgzTF5EULGy1EtHsdeCPk?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/44qT4xgABvn5S2WeFxocUv?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+### Hip Hop/Rap/Funk/R&B
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7rGueiHaD3AdnfCJDXe3Ac?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 ###  Slow Jamz
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5Bh6heJ8O1arrYQC8ghlaI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4ra5VkSJgUGHo68jmlAGYi?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
